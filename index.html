@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <section>
+          <div class="bg-[#FEB13F]">
+            <!-- sidebar -->
+            <div class="lg:hidden block lg:p-[0px]">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="w-6 h-6 cursor-pointer"
+                id="sidebaricon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
+              </svg>
+            </div>
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke-width="2"
+                stroke="currentColor"
+                class="w-6 h-6 cursor-pointer hidden"
+                id="closeicon"
+              >
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
+              </svg>
+            </div>
+            <div
+              class="text-center p-[20px] items-center hidden"
+              id="sidebarpage"
+            >
+              <div>
+                <img
+                  src="section2.jpg"
+                  class="w-[50px] h-[50px] rounded-[50px] mx-auto"
+                />
+              </div>
+              <div>
+                <ul
+                  class="flex lg:flex-row flex-col text-center gap-[40px] text-[20px] font-bold text-white font-mono"
+                >
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >SchoolSupplies</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]">Books</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="lg:flex lg:flex-row flex-col justify-around p-[20px] items-center hidden"
+            >
+              <div>
+                <img
+                  src="section2.jpg"
+                  class="w-[50px] h-[50px] rounded-[50px]"
+                />
+              </div>
+              <div>
+                <ul
+                  class="flex lg:flex-row flex-col text-center gap-[40px] text-[20px] font-bold text-white font-mono"
+                >
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >SchoolSupplies</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]">Books</a>
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >About Us</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="hover:text-black duration-[1s]"
+                      >Contact</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div
+              class="flex lg:flex-row flex-col justify-center gap-[50px] mt-[100px] items-center px-[100px]"
+            >
+              <div class="">
+                <img src="boy.png" class="h-screen" />
+              </div>
+              <div class="text-center">
+                <h1
+                  class="lg:text-[90px] sm:text-[50px] text-[30px] font-extrabold text-[#FFFEFF] font-sans"
+                >
+                  hey!<br />back to<br />
+                  school
+                </h1>
+                <p class="text-[30px] font-bold text-[#0D0002] font-sans">
+                  Course start party
+                </p>
+                <button
+                  class="px-[30px] py-[10px] bg-[#F05B6E] text-white font-sans font-semibold text-[25px] mt-[10px] lg:mb-[0px] mb-[10px] hover:rounded-[50px] hover:text-black duration-[1s]"
+                >
+                  Read More
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section>
+          <div class="bg-[#5E95E5]">
+            <div
+              class="flex lg:flex-row flex-col justify-center gap-[50px] items-center px-[100px]"
+            >
+              <div class="">
+                <img src="section2.jpg" class="h-screen" />
+              </div>
+              <div class="text-center lg:order-first order-last">
+                <p class="text-[30px] font-bold text-[#0D0002] font-sans">
+                  School Supplies
+                </p>
+                <h1
+                  class="lg:text-[60px] sm:text-[30px] text-[20px] font-extrabold text-[#FFFEFF] font-sans"
+                >
+                  Discover our<br />new<br />material
+                </h1>
+                <button
+                  class="px-[30px] py-[10px] bg-[#FFAA2B] text-white font-sans font-semibold text-[25px] mt-[10px] mb-[10px] hover:rounded-[50px] hover:text-black duration-[1s]"
+                >
+                  Shop Now
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </nav>
+    </header>
+    <main>
+      <section class="bg-[url('mergecolor.jpg')] bg-cover">
+        <div class="text-center pt-[40px]">
+          <h1 class="text-white font-sans font-bold text-[50px]">Blog</h1>
+          <p class="text-[25px] font-bold">Find the best tips on our blog</p>
+        </div>
+        <div
+          class="grid lg:grid-cols-2 flex-col px-[50px] gap-[20px] py-[50px]"
+        >
+          <div class="bg-[#FEAE3B]">
+            <img src="boy3.jpeg" class="h-screen w-screen" />
+            <div class="bg-[#000000] text-center p-[30px]">
+              <h1 class="text-white text-[25px] font-sans font-bold">
+                Digital Learning: Transforming Education for the Future
+              </h1>
+              <a
+                href="#"
+                class="text-[#A95263] text-[20px] font-sans font-semibold"
+                >Read More></a
+              >
+            </div>
+          </div>
+
+          <div class="bg-white">
+            <img src="girl2.jpeg" class="h-screen w-screen" />
+            <div class="bg-[#000000] text-center p-[30px]">
+              <h1 class="text-white text-[25px] font-sans font-bold">
+                "Inclusive Education: Fostering a Culture of Belonging"
+              </h1>
+              <a
+                href="#"
+                class="text-[#A95263] text-[20px] font-sans font-semibold"
+                >Read More></a
+              >
+            </div>
+          </div>
+          <div class="bg-[#5E95E5]">
+            <img src="Study boy.jpeg" class="h-screen w-screen" />
+            <div class="bg-[#000000] text-center p-[30px]">
+              <h1 class="text-white text-[25px] font-sans font-bold">
+                Empowering Students: Essential Life Skills for Success
+              </h1>
+              <a
+                href="#"
+                class="text-[#A95263] text-[20px] font-sans font-semibold"
+                >Read More></a
+              >
+            </div>
+          </div>
+          <div class="bg-[#FEAE3B]">
+            <img src="girl1.jpeg" class="h-screen w-screen" />
+            <div class="bg-[#000000] text-center p-[30px]">
+              <h1 class="text-white text-[25px] font-sans font-bold">
+                Healthy Habits: Supporting Students’ Well-Being and Growth
+              </h1>
+              <a
+                href="#"
+                class="text-[#A95263] text-[20px] font-sans font-semibold"
+                >Read More></a
+              >
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 class="text-center font-sans font-bold text-[60px] text-white">
+            Gallery
+          </h1>
+        </div>
+
+        <div class="grid grid-cols-2 mt-[30px] px-[100px]">
+          <div class="row-span-2">
+            <img src="gallerysection.jpg" class="h-full w-full" />
+          </div>
+          <div class="">
+            <img src="boy2.jpg" class="h-full w-full" />
+          </div>
+          <div class="">
+            <a href="#"> <img src="viewgallery.jpg" class="h-full w-full" /></a>
+          </div>
+        </div>
+
+        <div class="text-center">
+          <h1 class="text-[40px] font-sans font-bold text-[#5989cc] mt-[20px]">
+            Activites<br />Online
+          </h1>
+          <p class="text-[20px] font-bold py-[20px]">
+            The Best activites for the summer
+          </p>
+        </div>
+        <div class="flex lg:flex-row flex-col px-[50px] gap-[20px] pb-[30px]">
+          <div class="bg-[#5E95E5] text-center p-[20px]">
+            <img src="boy.png" />
+            <h1 class="text-[25px] font-bold font-sans text-white py-[10px]">
+              Online math<br />
+              Classes
+            </h1>
+            <a href="#" class="text-white font-semibold text-[18px]"
+              >Read More></a
+            >
+          </div>
+          <div class="bg-[#FFAB2E] text-center p-[20px]">
+            <img src="boy.png" />
+            <h1 class="text-[25px] font-bold font-sans text-white py-[10px]">
+              Online science Classes
+            </h1>
+            <a href="#" class="text-white font-semibold text-[18px]"
+              >Read More></a
+            >
+          </div>
+          <div class="bg-[#000000] text-center p-[20px]">
+            <img src="boy.png" />
+            <h1 class="text-[25px] font-bold font-sans text-white py-[10px]">
+              Online english Classes
+            </h1>
+            <a href="#" class="text-white font-semibold text-[18px]"
+              >Read More></a
+            >
+          </div>
+          <div class="bg-[#358D77] text-center p-[20px]">
+            <img src="boy.png" />
+            <h1 class="text-[25px] font-bold font-sans text-white py-[10px]">
+              Online exericse Classes
+            </h1>
+            <a href="#" class="text-white font-semibold text-[18px]"
+              >Read More></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="bg-[#E05363]">
+          <div
+            class="flex lg:flex-row flex-col justify-center gap-[50px] items-center px-[100px]"
+          >
+            <div class="">
+              <img src="footer.jpg" class="h-screen" />
+            </div>
+            <div class="text-center lg:order-first order-last">
+              <h1
+                class="lg:text-[60px] sm:text-[30px] text-[20px] font-extrabold text-[#FFFEFF] font-sans"
+              >
+                Follow Us!
+              </h1>
+              <p class="text-[30px] font-bold text-[#0D0002] font-sans">
+                Follow us on our social networks and participate in all our
+                raffles
+              </p>
+              <div class="sm:flex justify-center items-center">
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="cursor-pointer"
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+                    />
+                  </svg>
+                </div>
+                <div class="">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="cursor-pointer"
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 24 24"
+                  >
+                    <g fill="none">
+                      <path
+                        stroke="currentColor"
+                        stroke-width="2"
+                        d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z"
+                      />
+                      <circle cx="16.5" cy="7.5" r="1.5" fill="currentColor" />
+                      <circle
+                        cx="12"
+                        cy="12"
+                        r="3"
+                        stroke="currentColor"
+                        stroke-width="2"
+                      />
+                    </g>
+                  </svg>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    class="cursor-pointer"
+                    width="2em"
+                    height="2em"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      fill="currentColor"
+                      d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <button
+                class="px-[30px] py-[10px] bg-[#FFAA2B] text-white font-sans font-semibold text-[25px] mt-[10px] mb-[10px] hover:rounded-[50px] hover:text-black duration-[1s]"
+              >
+                Shop Now
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#FFAF3C]">
+        <div
+          class="flex lg:flex-row flex-col justify-center gap-[50px] items-center px-[100px]"
+        >
+          <div class="">
+            <img src="boy.png" class="h-screen" />
+          </div>
+          <div class="text-center">
+            <h1
+              class="lg:text-[90px] sm:text-[50px] text-[30px] font-extrabold text-[#FFFEFF] font-sans"
+            >
+              NewsLetter
+            </h1>
+            <p class="text-[30px] font-bold text-[#0D0002] font-sans">
+              Subscribe to our newsletter to stay informed of all the newsin our
+              store
+            </p>
+            <div class="flex flex-col">
+              <div class="py-[10px]">
+                <input
+                  type="email"
+                  placeholder="E-mail"
+                  class="bg-[#FFAF3C] outline-none focus:underline text-white placeholder:text-[20px] placeholder:text-white"
+                />
+              </div>
+              <div>
+                <button
+                  class="px-[30px] py-[10px] bg-[#F05B6E] text-white font-sans font-semibold text-[25px] mt-[10px] lg:mb-[0px] mb-[10px] hover:rounded-[50px] hover:text-black duration-[1s]"
+                >
+                  Subscribe
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-[#5E95E5]">
+        <div class="sm:flex p-[100px]">
+          <div class="bg-[#FFAE39] p-[50px]">
+            <h1 class="sm:text-[50px] text-[25px] font-sans font-extrabold">
+              Say Hello!
+            </h1>
+            <form action="" class="mt-[10px]">
+              <div class="flex flex-col gap-[20px]">
+                <div>
+                  <label for="name"></label>
+                  <input
+                    type="text"
+                    placeholder="Name"
+                    class="bg-[#FFAE39] outline-none text-white placeholder:text-white placeholder:text-[20px] placeholder:font-bold w-full"
+                  />
+                </div>
+                <div>
+                  <label for="Surname"></label>
+                  <input
+                    type="text"
+                    placeholder="Surname"
+                    class="bg-[#FFAE39] outline-none text-white placeholder:text-white placeholder:text-[20px] placeholder:font-bold w-full"
+                  />
+                </div>
+                <div>
+                  <label for="Email"></label>
+                  <input
+                    type="Email"
+                    placeholder="Email"
+                    class="bg-[#FFAE39] outline-none text-white placeholder:text-white placeholder:text-[20px] placeholder:font-bold w-full"
+                  />
+                </div>
+                <div>
+                  <input type="checkbox" />
+                  <span class="text-wrap text-justify font-sans font-bold">
+                    ipsum dolor sit amet consectetur, adipisicing elit.
+                    Lorem.</span
+                  >
+                </div>
+                <div>
+                  <button
+                    class="sm:px-[40px] px-[20px] py-[10px] bg-[#F05B6E] font-semibold text-white hover:rounded-[50px] hover:text-black duration-[1s]"
+                  >
+                    Send
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div>
+            <img src="contactmap.jpg" class="h-full" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="bg-[#E05363] p-[50px]">
+      <div>
+        <img src="footer.jpg" alt="logo" />
+      </div>
+      <div
+        class="flex gap-[50px] text-white font-bold font-sans text-[20px] mt-[20px]"
+      >
+        <div class="flex flex-col">
+          <a href="#">School Supplies</a>
+          <a href="#">Books</a>
+          <a href="#">About Us</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="flex flex-col">
+          <a href="#">Cookies</a>
+          <a href="#">FAQ</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">NewsLetter</a>
+        </div>
+      </div>
+      <div class="mt-[20px] flex justify-between">
+        <div>&copy;2024<span>Madduri Sairam</span></div>
+        <div>
+          <div class="flex">
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="cursor-pointer"
+                width="2em"
+                height="2em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8V15H8v-3h2V9.5C10 7.57 11.57 6 13.5 6H16v3h-2c-.55 0-1 .45-1 1v2h3v3h-3v6.95c5.05-.5 9-4.76 9-9.95"
+                />
+              </svg>
+            </div>
+            <div class="">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="cursor-pointer"
+                width="2em"
+                height="2em"
+                viewBox="0 0 24 24"
+              >
+                <g fill="none">
+                  <path
+                    stroke="currentColor"
+                    stroke-width="2"
+                    d="M3 11c0-3.771 0-5.657 1.172-6.828S7.229 3 11 3h2c3.771 0 5.657 0 6.828 1.172S21 7.229 21 11v2c0 3.771 0 5.657-1.172 6.828S16.771 21 13 21h-2c-3.771 0-5.657 0-6.828-1.172S3 16.771 3 13z"
+                  />
+                  <circle cx="16.5" cy="7.5" r="1.5" fill="currentColor" />
+                  <circle
+                    cx="12"
+                    cy="12"
+                    r="3"
+                    stroke="currentColor"
+                    stroke-width="2"
+                  />
+                </g>
+              </svg>
+            </div>
+            <div>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="cursor-pointer"
+                width="2em"
+                height="2em"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  fill="currentColor"
+                  d="M22.46 6c-.77.35-1.6.58-2.46.69c.88-.53 1.56-1.37 1.88-2.38c-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29c0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15c0 1.49.75 2.81 1.91 3.56c-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.2 4.2 0 0 1-1.93.07a4.28 4.28 0 0 0 4 2.98a8.52 8.52 0 0 1-5.33 1.84q-.51 0-1.02-.06C3.44 20.29 5.7 21 8.12 21C16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56c.84-.6 1.56-1.36 2.14-2.23"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script>
+      let sidebarion = document.querySelector("#sidebaricon");
+      let sidebarpages = document.querySelector("#sidebarpage");
+      let closeion = document.querySelector("#closeicon");
+      sidebarion.addEventListener("click", () => {
+        sidebarpages.classList.remove("hidden");
+        sidebarion.classList.add("hidden");
+        closeion.classList.remove("hidden");
+      });
+      closeion.addEventListener("click", () => {
+        sidebarpages.classList.add("hidden");
+        closeion.classList.add("hidden");
+        sidebarion.classList.remove("hidden");
+      });
+    </script>
+  </body>
+</html>
